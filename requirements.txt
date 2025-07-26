@@ -1,0 +1,42 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-chroma>=0.1.0
+langchain-groq>=0.1.0
+langchain-huggingface>=0.0.1
+
+# Document processing
+unstructured>=0.11.0
+tiktoken>=0.5.0
+
+# Vector database
+chromadb>=0.4.0
+
+# ML/AI dependencies
+sentence-transformers>=2.2.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# Utilities
+protobuf>=4.21.0
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Development dependencies (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Monitoring and logging
+structlog>=23.0.0
+
+
+
+pydantic-settings
