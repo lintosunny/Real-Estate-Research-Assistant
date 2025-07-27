@@ -1,5 +1,10 @@
-# REAL ESTATE REASERCH ASSISTANT
-A production-ready AI-powered research tool for real estate professionals, investors, and enthusiasts. Extract insights from web articles, reports, and documents using advanced RAG (Retrieval Augmented Generation) technology.
+# RAG Researcher
+A production-ready AI-powered research tool for professionals, investors, and enthusiasts. Extract insights from web articles, reports, and documents using advanced RAG (Retrieval Augmented Generation) technology.
+
+![Demo](assets/demo.gif)
+
+## Architecture
+![Architecture](assets/architecture.png)
 
 ## Core Capabilities
 
