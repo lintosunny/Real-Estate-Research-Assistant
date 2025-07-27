@@ -3,32 +3,33 @@ A production-ready AI-powered research tool for professionals, investors, and en
 
 ![Demo](assets/demo.gif)
 
+## Features
+* Extract insights from multiple web sources with natural language queries
+* AI-powered answers using Llama 3.3 via Groq with semantic search
+* Source citations included for transparency
+* Real-time processing with live status updates
+* Secure by design: input validation, sanitization, and rate limiting
+
+## Advanced Features
+* **Query History**: Track, revisit, and build on previous questions and answers.
+* **Health Monitoring**: View system status, performance, and component health in real time.
+* **Collection Management**: Manage processed documents, reset the vector DB, and monitor storage usage.
+
+## System Requirements
+* CPU: 2+ cores recommended
+* Memory: 4GB+ RAM for optimal performance
+* Storage: 10GB+ for vector database and logs
+* Network: Stable internet for API calls
+
 ## Architecture
 ![Architecture](assets/architecture.png)
-
-## Core Capabilities
-
-* 📥 Multi-URL Processing: Load content from multiple web sources simultaneously
-* 🔍 Intelligent Search: Ask natural language questions about processed content
-* 📊 Source Attribution: Get answers with proper source citations
-* ⚡ Real-time Processing: Live status updates during data processing
-* 🏗️ Production Ready: Enterprise-grade architecture with proper error handling
-
-## Technical Features
-
-1. 🤖 AI-Powered: Uses Llama 3.3 via Groq for answer generation
-2. 🧠 Vector Search: ChromaDB with HuggingFace embeddings for semantic search
-3. 🔒 Security: Input validation, sanitization, and rate limiting
-4. 📈 Monitoring: Health checks, logging, and performance metrics
-5. 🐳 Containerized: Docker support for easy deployment
-6. 🧪 Tested: Comprehensive unit and integration tests
 
 ## Installation
 
 1. **Clone the repository**:
 
 ```
-git clone https://github.com/lintosunny/Real-Estate-Research-Assistant.git
+git clone https://github.com/lintosunny/rag-researcher.git
 ```
 
 2. **Create and activate a virtual environment (optional but recommended)**:
@@ -60,5 +61,26 @@ GROQ_API_KEY=your_groq_api_key_here
 streamlit run main.py
 ```
 Once started app will be open in your default web browser.
+
+## User Guide
+
+1. Enter Up to 5 URLs: *Add article, blog, or report links in the sidebar. Make sure the website allow webscraping*
+
+2. Click "Process URLs": *The app will fetch and convert content into vector embeddings.*
+
+3. Ask Your Question: *Use the main input box to ask anything about the loaded content.*
+
+4. Get Answers with Sources: *The app returns precise, AI-generated answers with source citations.*
+
+## Getting Help
+
+* Documentation: Check this README
+* Issues: Report bugs on GitHub Issues
+* Discussions: Use GitHub Discussions for questions
+* Contact: lintosunny111@gmail.com
+
+## License
+This project is licensed under the MIT License 
+
 
 
