@@ -15,14 +15,14 @@ A production-ready AI-powered research tool for professionals, investors, and en
 * **Health Monitoring**: View system status, performance, and component health in real time.
 * **Collection Management**: Manage processed documents, reset the vector DB, and monitor storage usage.
 
+## Architecture
+![Architecture](assets/architecture.png)
+
 ## System Requirements
 * CPU: 2+ cores recommended
 * Memory: 4GB+ RAM for optimal performance
 * Storage: 10GB+ for vector database and logs
 * Network: Stable internet for API calls
-
-## Architecture
-![Architecture](assets/architecture.png)
 
 ## Installation
 
