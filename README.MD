@@ -29,7 +29,7 @@ A production-ready AI-powered research tool for professionals, investors, and en
 1. **Clone the repository**:
 
 ```
-git clone https://github.com/lintosunny/rag-researcher.git
+git clone https://github.com/lintosunny/rag-research-assistant.git
 ```
 
 2. **Create and activate a virtual environment (optional but recommended)**:
@@ -74,7 +74,6 @@ Once started app will be open in your default web browser.
 
 ## Getting Help
 
-* Documentation: Check this README
 * Issues: Report bugs on GitHub Issues
 * Discussions: Use GitHub Discussions for questions
 * Contact: lintosunny111@gmail.com
