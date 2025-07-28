@@ -1,4 +1,4 @@
-# RAG Researcher
+# RAG Research Assistant
 A production-ready AI-powered research tool for professionals, investors, and enthusiasts. Extract insights from web articles, reports, and documents using advanced RAG (Retrieval Augmented Generation) technology.
 
 ![Demo](assets/demo.gif)
